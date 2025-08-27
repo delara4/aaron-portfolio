@@ -1,0 +1,88 @@
+/* You can add custom CSS and extend Boostrap styles in this file. Remember, Bootstrap is just CSS at the end of the day! */
+
+#hero-section {
+  background: no-repeat center/cover
+    url("https://media.sketchfab.com/models/dd5e933bb2d8427184f7aa357c8a2e56/thumbnails/79b753fd0f1c435f9234f926683e4d03/0d30f17ed815441e960c5f46c97acefe.jpeg");
+  min-height: 100vh;
+  width: 100%;
+  color: antiquewhite;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5vh; /* Adjust this to push content down */
+}
+h1 {
+  color: antiquewhite;
+  text-shadow: 2px 2px 4px black;
+  font-weight: 700;
+  margin: 0;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+#subtitle,
+#subtitle-def {
+  margin: 5px 0;
+}
+
+.scroll-top .navbar {
+  background-color: transparent !important;
+  border-bottom: none !important;
+}
+
+#footer-section {
+  background-color: #2a224c;
+  color: antiquewhite;
+  text-align: center;
+}
+
+#profile {
+  width: clamp(
+    10rem,
+    10vw,
+    35rem
+  ); /* minimum width of the image, preferred (dynamic) width   maximum width.*/
+  height: clamp(10rem, 10vw, 35rem);
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 5px;
+}
+
+img {
+  height: 350px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+body {
+  background-color: #433a6a;
+}
+
+p {
+  color: antiquewhite;
+}
+
+i {
+  color: antiquewhite;
+}
+
+.hover-text-primary:hover {
+  color: #007bff !important;
+}
+
+#meet-me-target,
+#skills-target,
+#contact-target {
+  position: relative;
+  top: -100px;
+}
