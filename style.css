@@ -1,5 +1,10 @@
 /* You can add custom CSS and extend Boostrap styles in this file. Remember, Bootstrap is just CSS at the end of the day! */
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px; 
+}
+
 #hero-section {
   background: no-repeat center/cover
     url("https://img.magnific.com/premium-photo/blue-background-with-web-webs-it_1278706-48321.jpg?semt=ais_hybrid&w=740&q=80");
